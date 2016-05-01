@@ -25,7 +25,11 @@
     <div id="cal-heatmap"></div>
     <script type="text/javascript">
         var cal = new CalHeatMap();
-        cal.init({});
+        cal.init({
+            domain: "year",
+            subDomain: "week",
+            cellSize: 20
+        });
     </script>
 </body>
 
