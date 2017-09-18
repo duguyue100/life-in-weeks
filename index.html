@@ -1,46 +1,22 @@
-<!-- My Life in Weeks -->
-<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Week Calendar of Life</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
 
-<head>
-    <title>My Life in Weeks by Yuhuang Hu</title>
+    <label>
+      Born: <input type="date" id="bday">
+    </label>
 
-    <link rel="stylesheet" type="text/css" href="./css/computer-modern/fonts.css">
-    <style>
-        body {
-            font-family: "Computer Modern Serif", sans-serif;
-        }
-    </style>
+    <div id="calendar"></div>
 
-    <script src="./js/d3/d3.min.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="./js/cal-heatmap/cal-heatmap.css" />
-    <script type="text/javascript" src="./js/cal-heatmap/cal-heatmap.min.js"></script>
-</head>
+    <!-- script src="https://fb.me/react-0.13.3.js"></script -->
+    <script src="react.min.js"></script>
+    <script src="JSXTransformer.min.js"></script>
 
-<body>
-    <h1 align="center">My Life in Weeks</h1>
-    <h2 align="center">Yuhuang Hu</h2>
-    <h2 align="center">Born: May 6th, 1992</h2>
-    <hr>
-    <div id="cal-heatmap"></div>
-    <script type="text/javascript">
-        var cal = new CalHeatMap();
-        cal.init({
-            domain: "year",
-            subDomain: "week",
-            cellSize: 20,
-            cellRadius: 3,
-            cellPadding: 5,
-            range: 100,
-            start: new Date(1992, 4, 6),
-            verticalOrientation: true,
-            tooltip: true,
-            label: {
-	            position: "right",
-		        width: 46
-	        }
-        });
-    </script>
-</body>
-
+    <script src="dates.js"></script>
+    <script type="text/jsx" src="app.jsx"></script>
+  </body>
 </html>

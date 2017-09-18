@@ -1,0 +1,22 @@
+input[type="checkbox"] {
+  margin: 0;
+}
+
+input[type="date"] {
+  margin-bottom: 5px;
+}
+
+table {
+  font-size: 11px;
+}
+
+tr, th, td {
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
