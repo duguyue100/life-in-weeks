@@ -1,6 +1,6 @@
 var dates =
-{ "W2": "#A5D2FF: Early Years"
-, "W286": "#81C0C0: Elementary School"
+{ "W1": "#A5D2FF: Years that have no memory"
+, "W330": "#81C0C0: Elementary School"
 , "W599": "#9CD793: Middle School"
 , "W755": "#FFFF93: High School"
 , "W964": "#FFC68C: College"
